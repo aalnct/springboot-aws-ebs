@@ -16,5 +16,5 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - build/libs/springboot-aws-ebs-0.0.1.jar
+    - build/libs/springboot-aws-ebs-0.0.1-SNAPSHOT.war
  
