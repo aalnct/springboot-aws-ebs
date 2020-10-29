@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @SpringBootApplication
 @ComponentScan
 @Configuration
-public class SpringbootAwsEbsApplication {
+public class SpringbootAwsEbsApplication extends ServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAwsEbsApplication.class, args);
